@@ -1,6 +1,7 @@
 "-------------------------------------------------------------------------------------"
 copyright := 'Copyright FALL 2023, Abioye. D, All rights reserved.'.
 Transcript show: copyright; flush; nl.
+Transcript nl.
 "-------------------------------------------------------------------------------------"
 
 Object subclass: ClassPackage [
@@ -31,7 +32,7 @@ calculator := ClassPackage new. "Use the class object"
 result := calculator square: 5.
 Transcript show: 'The square of 5 is ', result asString; nl.
 
-nl.
+Transcript nl.
 
 result := calculator addTwoNumbers: 5 bNumber: 10.
 Transcript show: 'The sum is ', result asString; nl.

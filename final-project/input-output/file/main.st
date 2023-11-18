@@ -2,6 +2,7 @@
 "-------------------------------------------------------------------------------------"
 copyright := 'Copyright FALL 2023, Abioye. D, All rights reserved.'.
 Transcript show: copyright; flush; nl.
+Transcript nl.
 "-------------------------------------------------------------------------------------"
 
 "https://www.gnu.org/software/smalltalk/manual/html_node/Files.html"

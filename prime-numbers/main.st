@@ -1,6 +1,7 @@
 "-------------------------------------------------------------------------------------"
 copyright := 'Copyright FALL 2023, Abioye. D, All rights reserved.'.
 Transcript show: copyright; flush; nl.
+Transcript nl.
 "-------------------------------------------------------------------------------------"
 
 
@@ -15,7 +16,7 @@ num := (FileStream stdin nextLine) asInteger.
 
 "Check if input num is NEGATIVE"
 (num <= 1) ifTrue: [
-    Transcript show: 'There are no prime numbers for the input number ', num asString, '.'; cr.
+    Transcript show: 'Please enter a positive integer!'; cr.
 
 ] ifFalse: [
     prime := OrderedCollection new. "This line initializes an empty ordered collection that will be used to store prime numbers found in the subsequent loop"
