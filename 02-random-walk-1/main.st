@@ -36,7 +36,7 @@ Object subclass: RandomWalk [
                 ^ 'Exit Grid at position: (', x asString, ', ', y asString, ')'.
             ].
 
-            "Choose a random direction: 0 (up), 1 (down), 2 (left), or 3 (right)"
+            "Choose a random direction: 1 (up), 2 (down), 3 (left), or 4 (right)"
             direction := (1 to: 4) atRandom.
 
             "Update coordinates based on the chosen direction, limiting the maximum value"

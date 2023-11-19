@@ -10,7 +10,7 @@ Object subclass: RandomWalk [
     RandomWalk class >> createArray [
         | A H1 H2 H3 H4 |
 
-        "Declare an empty array"
+        "Declare an empty list"
         A := OrderedCollection new.
 
         "Read input"
