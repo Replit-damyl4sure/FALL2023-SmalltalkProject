@@ -40,7 +40,7 @@ Transcript show: 'Integer Number: ', integerNumber printString; nl.
 Transcript nl.
 Transcript show: 'Float Number: ', floatNumber printString; nl.
 Transcript nl.
-Transcript show: 'String: '; nl.
+Transcript show: 'String: ', string; nl.
 Transcript nl.
 Transcript show: 'Array: ', array printString; nl.
 Transcript nl.

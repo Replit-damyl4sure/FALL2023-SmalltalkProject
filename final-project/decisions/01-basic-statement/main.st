@@ -17,10 +17,11 @@ Transcript nl.
 Transcript show: 'If-Else statement'; nl.
 |a b|
 a := 5.
-b := 3.
+b := 13.
 (a > b) ifTrue: [
     Transcript show: 'value of ', a asString, ' is greater than value of ', b asString; nl.
 ]
+
 ifFalse: [
     Transcript show: 'value of ', b asString, ' is greater than value of ', a asString; nl.
 ]

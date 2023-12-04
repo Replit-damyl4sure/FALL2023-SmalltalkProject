@@ -4,9 +4,9 @@ Transcript show: copyright; flush; nl.
 Transcript nl.
 "-------------------------------------------------------------------------------------"
 
-Object subclass: ClassPackage [
+Object subclass: Arithmetic [
 
-    ClassPackage>>square: aNumber [
+    Arithmetic>>square: aNumber [
         | output |
         "This method calculates and returns the square of the input number."
         output := aNumber * aNumber.
@@ -15,7 +15,7 @@ Object subclass: ClassPackage [
     ]
 
 
-    ClassPackage>>addTwoNumbers: aNumber bNumber: bNumber [
+    Arithmetic>>addTwoNumbers: aNumber bNumber: bNumber [
         | output |
         "This method calculates and returns the sum of the numbers."
         output := aNumber + bNumber.
@@ -27,12 +27,12 @@ Object subclass: ClassPackage [
 
 "Usage:"
 | calculator result |
-calculator := ClassPackage new. "Use the class object"
+calculator := Arithmetic new. "Use the class object"
 
-result := calculator square: 5.
-Transcript show: 'The square of 5 is ', result asString; nl.
+result := calculator square: 9.
+Transcript show: 'The square of number is ', result asString; nl.
 
 Transcript nl.
 
-result := calculator addTwoNumbers: 5 bNumber: 10.
-Transcript show: 'The sum is ', result asString; nl.
+result := calculator addTwoNumbers: 100 bNumber: 1.
+Transcript show: 'The sum is of the two numbers is ', result asString; nl.
